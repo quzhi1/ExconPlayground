@@ -3,7 +3,11 @@
 require 'rubygems'
 require 'excon'
 
-config = { connect_timeout: 1.0000 }
+config = {
+  connect_timeout: 1.0,
+  read_timeout: 1.0,
+  write_timeout: 1.0
+}
 # config = { connect_timeout: 0.0001 }
 excon = Excon.new('https://postman-echo.com/get?foo1=bar1&foo2=bar2', config)
 

@@ -4,7 +4,7 @@ GEM
     debase (0.2.4)
       debase-ruby_core_source (>= 0.10.2)
     debase-ruby_core_source (0.10.5)
-    excon (0.66.0)
+    excon (0.71.0)
     rake (12.3.2)
     ruby-debug-ide (0.7.0)
       rake (>= 0.8.1)
